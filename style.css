@@ -103,7 +103,7 @@ ul {
     margin-left: 1315px;
 }
 
-a {
+#navigation a {
     text-decoration: none;
     color: #e6e6e6;
     background-color: #303030;
@@ -115,7 +115,7 @@ a {
     cursor: pointer;
 }
 
-a:hover {
+#navigation a:hover {
     background-color: #202020;
     transition-duration: .5s;
 }
@@ -127,7 +127,15 @@ a:hover {
 
 #aboutme h1 {
     margin-top: 30px;
-    font-size: 60px;
+    font-size: 100px;
+}
+
+#skillssection h1 {
+    font-size: 100px;
+}
+
+#skillsssection img {
+    margin: 30px;
 }
 
 #aboutme p {
@@ -136,4 +144,39 @@ a:hover {
 
 #aboutmepara {
     width: 900px;
+}
+
+
+/*#notfl:hover {
+    width: 300px;
+    height: 300px;
+    transition-duration: .5s;
+}
+
+#notfl {
+    width: 250px;
+    height: 250px;
+    transition-duration: .5s;
+}
+
+#fl:hover {
+    width: 278.5;
+    height: 336;
+    transition-duration: .5s;
+}
+
+#fl {
+    width: 232;
+    height: 280;
+    transition-duration: .5s;
+}*/
+
+#unity, #fl {
+    transform: scale(1);
+    transition-duration: .5s; 
+}
+
+#unity:hover, #fl:hover {
+    transform: scale(1.3);
+    transition-duration: .5s; 
 }
